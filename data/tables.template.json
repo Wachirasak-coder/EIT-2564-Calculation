@@ -1,0 +1,2940 @@
+{
+ "meta": {
+  "name": "แม่แบบค่าตาราง วสท. 022001-22 — กรอกค่าจากมาตรฐานฉบับจริง",
+  "version": "template-1"
+ },
+ "ampacity": {
+  "5-20": {
+   "title": "สายทองแดงฉนวน PVC 70°C เดินในท่อร้อยสายในอากาศ",
+   "insulation": "PVC",
+   "conductorTemp": null,
+   "ambientBase": null,
+   "location": "air",
+   "groupingTable": "5-8",
+   "columns": [
+    {
+     "label": "กลุ่ม 1 · 2 ตัวนำ · แกนเดียว"
+    },
+    {
+     "label": "กลุ่ม 1 · 2 ตัวนำ · หลายแกน"
+    },
+    {
+     "label": "กลุ่ม 1 · 3 ตัวนำ · แกนเดียว"
+    },
+    {
+     "label": "กลุ่ม 1 · 3 ตัวนำ · หลายแกน"
+    },
+    {
+     "label": "กลุ่ม 2 · 2 ตัวนำ · แกนเดียว"
+    },
+    {
+     "label": "กลุ่ม 2 · 2 ตัวนำ · หลายแกน"
+    },
+    {
+     "label": "กลุ่ม 2 · 3 ตัวนำ · แกนเดียว"
+    },
+    {
+     "label": "กลุ่ม 2 · 3 ตัวนำ · หลายแกน"
+    }
+   ],
+   "rows": {
+    "1": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "4": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "6": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "10": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "16": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "25": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "35": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "50": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "70": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "95": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "120": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "150": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "185": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "240": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "300": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "400": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "500": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "1.5": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "2.5": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   }
+  },
+  "5-27": {
+   "title": "สายทองแดงฉนวน XLPE 90°C เดินในท่อร้อยสายในอากาศ",
+   "insulation": "XLPE",
+   "conductorTemp": null,
+   "ambientBase": null,
+   "location": "air",
+   "groupingTable": "5-8",
+   "columns": [
+    {
+     "label": "กลุ่ม 1 · 2 ตัวนำ · แกนเดียว"
+    },
+    {
+     "label": "กลุ่ม 1 · 2 ตัวนำ · หลายแกน"
+    },
+    {
+     "label": "กลุ่ม 1 · 3 ตัวนำ · แกนเดียว"
+    },
+    {
+     "label": "กลุ่ม 1 · 3 ตัวนำ · หลายแกน"
+    },
+    {
+     "label": "กลุ่ม 2 · 2 ตัวนำ · แกนเดียว"
+    },
+    {
+     "label": "กลุ่ม 2 · 2 ตัวนำ · หลายแกน"
+    },
+    {
+     "label": "กลุ่ม 2 · 3 ตัวนำ · แกนเดียว"
+    },
+    {
+     "label": "กลุ่ม 2 · 3 ตัวนำ · หลายแกน"
+    }
+   ],
+   "rows": {
+    "1": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "4": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "6": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "10": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "16": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "25": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "35": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "50": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "70": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "95": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "120": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "150": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "185": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "240": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "300": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "400": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "500": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "1.5": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "2.5": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   }
+  },
+  "5-21": {
+   "title": "สายทองแดง PVC/XLPE เดินเกาะผนังในอากาศ (กลุ่ม 3)",
+   "insulation": "mixed",
+   "conductorTemp": null,
+   "ambientBase": null,
+   "location": "air",
+   "groupingTable": "5-8",
+   "columns": [
+    {
+     "label": "แบน หลายแกน PVC 70°C · 2 ตัวนำ",
+     "insulation": "PVC"
+    },
+    {
+     "label": "กลม แกนเดียว PVC 70°C · 2 ตัวนำ",
+     "insulation": "PVC"
+    },
+    {
+     "label": "กลม แกนเดียว PVC 70°C · 3 ตัวนำ",
+     "insulation": "PVC"
+    },
+    {
+     "label": "กลม แกนเดียว XLPE 90°C · 2 ตัวนำ",
+     "insulation": "XLPE"
+    },
+    {
+     "label": "กลม แกนเดียว XLPE 90°C · 3 ตัวนำ",
+     "insulation": "XLPE"
+    },
+    {
+     "label": "กลม หลายแกน PVC 70°C · 2 ตัวนำ",
+     "insulation": "PVC"
+    },
+    {
+     "label": "กลม หลายแกน PVC 70°C · 3 ตัวนำ",
+     "insulation": "PVC"
+    },
+    {
+     "label": "กลม หลายแกน XLPE 90°C · 2 ตัวนำ",
+     "insulation": "XLPE"
+    },
+    {
+     "label": "กลม หลายแกน XLPE 90°C · 3 ตัวนำ",
+     "insulation": "XLPE"
+    }
+   ],
+   "rows": {
+    "1": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "4": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "6": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "10": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "16": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "25": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "35": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "50": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "70": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "95": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "120": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "150": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "185": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "240": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "300": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "400": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "500": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "1.5": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "2.5": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   }
+  },
+  "5-23": {
+   "title": "สายทองแดงฉนวน PVC มีเปลือก 70°C ร้อยท่อฝังดิน/ฝังดินโดยตรง",
+   "insulation": "PVC",
+   "conductorTemp": null,
+   "ambientBase": null,
+   "location": "ground",
+   "groupingTable": "5-8",
+   "columns": [
+    {
+     "label": "กลุ่ม 5 (ร้อยท่อฝังดิน) · 2 ตัวนำ"
+    },
+    {
+     "label": "กลุ่ม 5 (ร้อยท่อฝังดิน) · 3 ตัวนำ"
+    },
+    {
+     "label": "กลุ่ม 6 (ฝังดินโดยตรง) · ไม่เกิน 3 ตัวนำ"
+    }
+   ],
+   "rows": {
+    "1": [
+     null,
+     null,
+     null
+    ],
+    "4": [
+     null,
+     null,
+     null
+    ],
+    "6": [
+     null,
+     null,
+     null
+    ],
+    "10": [
+     null,
+     null,
+     null
+    ],
+    "16": [
+     null,
+     null,
+     null
+    ],
+    "25": [
+     null,
+     null,
+     null
+    ],
+    "35": [
+     null,
+     null,
+     null
+    ],
+    "50": [
+     null,
+     null,
+     null
+    ],
+    "70": [
+     null,
+     null,
+     null
+    ],
+    "95": [
+     null,
+     null,
+     null
+    ],
+    "120": [
+     null,
+     null,
+     null
+    ],
+    "150": [
+     null,
+     null,
+     null
+    ],
+    "185": [
+     null,
+     null,
+     null
+    ],
+    "240": [
+     null,
+     null,
+     null
+    ],
+    "300": [
+     null,
+     null,
+     null
+    ],
+    "400": [
+     null,
+     null,
+     null
+    ],
+    "500": [
+     null,
+     null,
+     null
+    ],
+    "1.5": [
+     null,
+     null,
+     null
+    ],
+    "2.5": [
+     null,
+     null,
+     null
+    ]
+   }
+  },
+  "5-29": {
+   "title": "สายทองแดงฉนวน XLPE มีเปลือก 90°C ร้อยท่อฝังดิน/ฝังดินโดยตรง",
+   "insulation": "XLPE",
+   "conductorTemp": null,
+   "ambientBase": null,
+   "location": "ground",
+   "groupingTable": "5-8",
+   "columns": [
+    {
+     "label": "กลุ่ม 5 (ร้อยท่อฝังดิน) · 2 ตัวนำ"
+    },
+    {
+     "label": "กลุ่ม 5 (ร้อยท่อฝังดิน) · 3 ตัวนำ"
+    },
+    {
+     "label": "กลุ่ม 6 (ฝังดินโดยตรง) · ไม่เกิน 3 ตัวนำ"
+    }
+   ],
+   "rows": {
+    "4": [
+     null,
+     null,
+     null
+    ],
+    "6": [
+     null,
+     null,
+     null
+    ],
+    "10": [
+     null,
+     null,
+     null
+    ],
+    "16": [
+     null,
+     null,
+     null
+    ],
+    "25": [
+     null,
+     null,
+     null
+    ],
+    "35": [
+     null,
+     null,
+     null
+    ],
+    "50": [
+     null,
+     null,
+     null
+    ],
+    "70": [
+     null,
+     null,
+     null
+    ],
+    "95": [
+     null,
+     null,
+     null
+    ],
+    "120": [
+     null,
+     null,
+     null
+    ],
+    "150": [
+     null,
+     null,
+     null
+    ],
+    "185": [
+     null,
+     null,
+     null
+    ],
+    "240": [
+     null,
+     null,
+     null
+    ],
+    "300": [
+     null,
+     null,
+     null
+    ],
+    "400": [
+     null,
+     null,
+     null
+    ],
+    "500": [
+     null,
+     null,
+     null
+    ],
+    "1.5": [
+     null,
+     null,
+     null
+    ],
+    "2.5": [
+     null,
+     null,
+     null
+    ]
+   }
+  }
+ },
+ "tempFactor": {
+  "5-43": {
+   "title": "ตัวคูณอุณหภูมิโดยรอบ (เดินในอากาศ ฐาน 40°C)",
+   "columns": [
+    "PVC70",
+    "PVC90",
+    "XLPE90",
+    "MI70",
+    "MI105"
+   ],
+   "rows": [
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ]
+   ]
+  },
+  "5-44": {
+   "title": "ตัวคูณอุณหภูมิโดยรอบ (ใต้ดิน ฐาน 30°C)",
+   "columns": [
+    "PVC70",
+    "XLPE90"
+   ],
+   "rows": [
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ]
+   ]
+  }
+ },
+ "groupFactor": {
+  "5-8": {
+   "title": "ตัวคูณจำนวนกลุ่มวงจร",
+   "columns": [
+    "ในช่องเดินสายเดียวกัน",
+    "เดินบนผิว/เกาะผนัง"
+   ],
+   "rows": [
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     null,
+     [
+      null,
+      null
+     ]
+    ]
+   ]
+  }
+ },
+ "vd": {
+  "ฐ.1": {
+   "title": "PVC แกนเดียว 70°C",
+   "insulation": "PVC",
+   "core": "single",
+   "columns": [
+    {
+     "label": "1 เฟส · กลุ่ม 1,2,5",
+     "phase": 1
+    },
+    {
+     "label": "1 เฟส · กลุ่ม 3,4,6,7 (Touching)",
+     "phase": 1
+    },
+    {
+     "label": "1 เฟส · กลุ่ม 3,4,6,7 (Spaced)",
+     "phase": 1
+    },
+    {
+     "label": "3 เฟส · กลุ่ม 1,2,5",
+     "phase": 3
+    },
+    {
+     "label": "3 เฟส · กลุ่ม 3,4,6,7 (Trefoil)",
+     "phase": 3
+    },
+    {
+     "label": "3 เฟส · กลุ่ม 3,4,6,7 (Flat)",
+     "phase": 3
+    },
+    {
+     "label": "3 เฟส · กลุ่ม 3,4,6,7 (Spaced)",
+     "phase": 3
+    }
+   ],
+   "rows": {
+    "1": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "4": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "6": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "10": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "16": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "25": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "35": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "50": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "70": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "95": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "120": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "150": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "185": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "240": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "300": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "400": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "500": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "1.5": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "2.5": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   }
+  },
+  "ฐ.2": {
+   "title": "PVC หลายแกน 70°C",
+   "insulation": "PVC",
+   "core": "multi",
+   "columns": [
+    {
+     "label": "1 เฟส · ทุกกลุ่ม",
+     "phase": 1
+    },
+    {
+     "label": "3 เฟส · ทุกกลุ่ม",
+     "phase": 3
+    }
+   ],
+   "rows": {
+    "1": [
+     null,
+     null
+    ],
+    "4": [
+     null,
+     null
+    ],
+    "6": [
+     null,
+     null
+    ],
+    "10": [
+     null,
+     null
+    ],
+    "16": [
+     null,
+     null
+    ],
+    "25": [
+     null,
+     null
+    ],
+    "35": [
+     null,
+     null
+    ],
+    "50": [
+     null,
+     null
+    ],
+    "70": [
+     null,
+     null
+    ],
+    "95": [
+     null,
+     null
+    ],
+    "120": [
+     null,
+     null
+    ],
+    "150": [
+     null,
+     null
+    ],
+    "185": [
+     null,
+     null
+    ],
+    "240": [
+     null,
+     null
+    ],
+    "300": [
+     null,
+     null
+    ],
+    "400": [
+     null,
+     null
+    ],
+    "1.5": [
+     null,
+     null
+    ],
+    "2.5": [
+     null,
+     null
+    ]
+   }
+  },
+  "ฐ.3": {
+   "title": "XLPE แกนเดียว 90°C",
+   "insulation": "XLPE",
+   "core": "single",
+   "columns": [
+    {
+     "label": "1 เฟส · กลุ่ม 1,2,5",
+     "phase": 1
+    },
+    {
+     "label": "1 เฟส · กลุ่ม 3,4,6,7 (Touching)",
+     "phase": 1
+    },
+    {
+     "label": "1 เฟส · กลุ่ม 3,4,6,7 (Spaced)",
+     "phase": 1
+    },
+    {
+     "label": "3 เฟส · กลุ่ม 1,2,5",
+     "phase": 3
+    },
+    {
+     "label": "3 เฟส · กลุ่ม 3,4,6,7 (Trefoil)",
+     "phase": 3
+    },
+    {
+     "label": "3 เฟส · กลุ่ม 3,4,6,7 (Flat)",
+     "phase": 3
+    },
+    {
+     "label": "3 เฟส · กลุ่ม 3,4,6,7 (Spaced)",
+     "phase": 3
+    }
+   ],
+   "rows": {
+    "1": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "4": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "6": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "10": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "16": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "25": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "35": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "50": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "70": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "95": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "120": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "150": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "185": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "240": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "300": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "400": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "500": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "1.5": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "2.5": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   }
+  },
+  "ฐ.4": {
+   "title": "XLPE หลายแกน 90°C",
+   "insulation": "XLPE",
+   "core": "multi",
+   "columns": [
+    {
+     "label": "1 เฟส · ทุกกลุ่ม",
+     "phase": 1
+    },
+    {
+     "label": "3 เฟส · ทุกกลุ่ม",
+     "phase": 3
+    }
+   ],
+   "rows": {
+    "1": [
+     null,
+     null
+    ],
+    "4": [
+     null,
+     null
+    ],
+    "6": [
+     null,
+     null
+    ],
+    "10": [
+     null,
+     null
+    ],
+    "16": [
+     null,
+     null
+    ],
+    "25": [
+     null,
+     null
+    ],
+    "35": [
+     null,
+     null
+    ],
+    "50": [
+     null,
+     null
+    ],
+    "70": [
+     null,
+     null
+    ],
+    "95": [
+     null,
+     null
+    ],
+    "120": [
+     null,
+     null
+    ],
+    "150": [
+     null,
+     null
+    ],
+    "185": [
+     null,
+     null
+    ],
+    "240": [
+     null,
+     null
+    ],
+    "300": [
+     null,
+     null
+    ],
+    "400": [
+     null,
+     null
+    ],
+    "1.5": [
+     null,
+     null
+    ],
+    "2.5": [
+     null,
+     null
+    ]
+   }
+  }
+ },
+ "vdLimit": {
+  "clause": "3.6.1 / 3.6.2",
+  "totalPct": null
+ },
+ "conduitFill": {
+  "5-3": {
+   "title": "ร้อยละพื้นที่หน้าตัดสูงสุดของสายรวมต่อพื้นที่ท่อ",
+   "byCount": {
+    "1": null,
+    "2": null,
+    "3": null,
+    "4": null,
+    "more": null
+   },
+   "byCountLeadSheath": {
+    "1": null,
+    "2": null,
+    "3": null,
+    "4": null,
+    "more": null
+   }
+  }
+ },
+ "grounding": {
+  "4-1": {
+   "title": "ขนาดต่ำสุดของสายต่อหลักดิน (ทองแดง)",
+   "rows": [
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ]
+   ],
+   "note": "แถว [ขนาดตัวนำประธานไม่เกิน (ตร.มม.), สายต่อหลักดิน (ตร.มม.)] แถวสุดท้าย = เกินค่าก่อนหน้า"
+  },
+  "4-2": {
+   "title": "ขนาดต่ำสุดของสายดินบริภัณฑ์ไฟฟ้า (ทองแดง)",
+   "rows": [
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ]
+   ],
+   "longCircuitM": null
+  }
+ },
+ "service": {
+  "3-4": {
+   "title": "มิเตอร์/พิกัด OCPD สูงสุด/โหลดสูงสุด (กฟน.)",
+   "rows": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ],
+   "minOcpdFactor": null
+  },
+  "3-5": {
+   "title": "มิเตอร์/ตัวนำประธาน/อุปกรณ์ประธาน (กฟภ.)",
+   "columns": [
+    "meter",
+    "phase",
+    "alMm2",
+    "cuMm2",
+    "switchMinA",
+    "switchFuseMaxA",
+    "cutoutMinA",
+    "cutoutFuseMaxA",
+    "cbMaxA"
+   ],
+   "rows": [
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   ]
+  }
+ },
+ "demand": {
+  "3-1": {
+   "title": "ดีมานด์แฟกเตอร์โหลดแสงสว่าง",
+   "types": {
+    "residential": {
+     "label": "ที่พักอาศัย",
+     "tiers": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ]
+    },
+    "hotel": {
+     "label": "โรงแรม/ห้องชุดที่ไม่มีส่วนประกอบอาหาร",
+     "tiers": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ]
+    },
+    "warehouse": {
+     "label": "โรงเก็บพัสดุ",
+     "tiers": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ]
+    },
+    "other": {
+     "label": "อาคารประเภทอื่น",
+     "tiers": [
+      [
+       null,
+       null
+      ]
+     ]
+    }
+   }
+  },
+  "3-2": {
+   "title": "ดีมานด์แฟกเตอร์เต้ารับ (ไม่ใช่ที่อยู่อาศัย)",
+   "vaPerOutlet": null,
+   "tiers": [
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ]
+   ]
+  },
+  "3-3": {
+   "title": "ดีมานด์แฟกเตอร์เครื่องใช้ไฟฟ้าทั่วไป",
+   "residential": {
+    "cookingFirstA": null,
+    "cookingRestPct": null,
+    "waterHeaterFullCount": null,
+    "waterHeaterRestPct": null,
+    "acPct": null
+   },
+   "commercial": {
+    "cookingLargestPct": null,
+    "cookingSecondPct": null,
+    "cookingRestPct": null,
+    "waterHeaterFullCount": null,
+    "waterHeaterRestPct": null,
+    "acPct": null
+   },
+   "hotel": {
+    "sameAs": null,
+    "acPct": null
+   }
+  },
+  "ฌ.1": {
+   "title": "เครื่องปรับอากาศแบบส่วนกลาง",
+   "chillerFirstPct": null,
+   "chillerRestPct": null,
+   "ahuFullCount": null,
+   "ahuRestPct": null
+  },
+  "10-2": {
+   "title": "ดีมานด์แฟกเตอร์สายป้อนลิฟต์",
+   "rows": [
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ]
+   ]
+  },
+  "3.2.4": {
+   "title": "ตัวนำนิวทรัล 3 เฟส 4 สาย",
+   "thresholdA": null,
+   "excessPct": null
+  }
+ },
+ "motor": {
+  "6.3.5.1": {
+   "branchPct": null
+  },
+  "6-1": {
+   "title": "ขนาดกระแสสายมอเตอร์ใช้งานไม่ต่อเนื่อง (% ของพิกัดป้าย)",
+   "columns": [
+    "5 นาที",
+    "15 นาที",
+    "30/60 นาที",
+    "ต่อเนื่อง"
+   ],
+   "rows": {
+    "short": {
+     "label": "ใช้งานระยะสั้น",
+     "v": [
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "intermittent": {
+     "label": "ใช้งานเป็นระยะ",
+     "v": [
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "periodic": {
+     "label": "ใช้งานเป็นคาบ",
+     "v": [
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "varying": {
+     "label": "ใช้งานที่เปลี่ยนแปลง",
+     "v": [
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   }
+  },
+  "6-3": {
+   "title": "พิกัด/ขนาดปรับตั้งสูงสุดของเครื่องป้องกันลัดวงจรวงจรย่อยมอเตอร์ (% FLC)",
+   "columns": [
+    "ฟิวส์ทำงานไว",
+    "ฟิวส์หน่วงเวลา",
+    "CB ปลดทันที",
+    "CB เวลาผกผัน"
+   ],
+   "rows": {
+    "single": {
+     "label": "มอเตอร์ 1 เฟส",
+     "v": [
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "polyphase": {
+     "label": "มอเตอร์โพลีเฟสอื่น (ไม่ใช่เวาด์โรเตอร์)",
+     "v": [
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "squirrel": {
+     "label": "มอเตอร์กรงกระรอก",
+     "v": [
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "sync": {
+     "label": "มอเตอร์ซิงโครนัส",
+     "v": [
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "wound": {
+     "label": "มอเตอร์เวาด์โรเตอร์",
+     "v": [
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    "dc": {
+     "label": "มอเตอร์กระแสตรง (แรงดันคงที่)",
+     "v": [
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   }
+  },
+  "6.3.21": {
+   "title": "ขีดจำกัดเมื่อขนาดตามตารางไม่ทำงาน",
+   "fastFuseMaxPct": null,
+   "fastFuseBigMaxPct": null,
+   "fuseBigA": null,
+   "timeDelayFuseMaxPct": null,
+   "itcbSmallMaxPct": null,
+   "itcbBigMaxPct": null,
+   "itcbBigA": null
+  }
+ },
+ "transformer": {
+  "6-5": {
+   "title": "ขนาดปรับตั้งสูงสุดของ OCPD หม้อแปลงระบบแรงสูง (% พิกัดกระแส)",
+   "columns": [
+    "ไฟเข้า >1kV CB",
+    "ไฟเข้า >1kV ฟิวส์",
+    "ไฟออก >1kV CB",
+    "ไฟออก >1kV ฟิวส์",
+    "ไฟออก ≤1kV CB/ฟิวส์"
+   ],
+   "rows": [
+    [
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ],
+    [
+     null,
+     [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ]
+   ],
+   "note": "ตรวจคอลัมน์ไฟออก ≤1kV กับมาตรฐานฉบับจริง (ข้อความที่สกัดได้อ่านเป็น 100%)"
+  }
+ },
+ "condo": {
+  "9.1.2": {
+   "residentialNoCentral": {
+    "vaPerM2": null
+   },
+   "residentialCentral": {
+    "vaPerM2": null
+   },
+   "residentialAdders": [
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ]
+   ],
+   "officeNoCentral": {
+    "vaPerM2": null
+   },
+   "officeCentral": {
+    "vaPerM2": null
+   },
+   "industrial": {
+    "vaPerM2": null
+   }
+  },
+  "9-1": {
+   "title": "มิเตอร์ห้องชุดอยู่อาศัย (กฟน.)",
+   "rows": {
+    "noCentral": [
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ]
+    ],
+    "central": [
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ]
+    ]
+   }
+  },
+  "9-3": {
+   "title": "มิเตอร์ห้องชุดสำนักงาน/ร้านค้า (กฟน.)",
+   "rows": {
+    "noCentral": [
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ]
+    ],
+    "central": [
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ]
+    ]
+   }
+  },
+  "9-2": {
+   "title": "มิเตอร์ห้องชุดอยู่อาศัย (กฟภ.)",
+   "rows": {
+    "noCentral": [
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ]
+    ],
+    "central": [
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ]
+    ]
+   }
+  },
+  "9-4": {
+   "title": "มิเตอร์ห้องชุดสำนักงาน/ร้านค้า (กฟภ.)",
+   "rows": {
+    "noCentral": [
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ]
+    ],
+    "central": [
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ],
+     [
+      null,
+      null,
+      null
+     ]
+    ]
+   }
+  },
+  "9-5": {
+   "title": "โคอินซิเดนต์แฟกเตอร์ ห้องชุดอยู่อาศัย",
+   "rows": [
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ]
+   ]
+  },
+  "9-6": {
+   "title": "โคอินซิเดนต์แฟกเตอร์ ห้องชุดสำนักงาน/ร้านค้า/อุตสาหกรรม",
+   "rows": [
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ]
+   ]
+  }
+ }
+}
