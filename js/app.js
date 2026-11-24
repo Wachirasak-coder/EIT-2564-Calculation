@@ -1,4 +1,4 @@
-import { loadTables, saveTables, clearTables } from "./data.js";
+import { loadTables, saveTables, clearTables, hasEncrypted, unlock } from "./data.js";
 import { current, r, SIZES } from "./calc/lib.js";
 import * as D from "./calc/demand.js";
 import * as C from "./calc/cable.js";
@@ -208,22 +208,34 @@ function compute(m, v) {
 }
 function renderData() {
   const list = T ? Object.entries(T).filter(([k]) => k !== "meta").flatMap(([g, o]) => typeof o === "object" ? Object.entries(o).map(([id, t]) => `<tr><td>${g}</td><td>${id}</td><td>${t?.title ?? ""}</td></tr>`) : []).join("") : "";
-  $("#view").innerHTML = `<div class="card"><h2>ตารางข้อมูล</h2>
+  const lockBox = !T && hasEncrypted() ? `<div class="card"><h2>ปลดล็อกค่าตาราง</h2>
+    <p class="sub">ค่าตารางเก็บแบบเข้ารหัสไว้ในเว็บนี้แล้ว ใส่รหัสผ่านครั้งเดียว เบราว์เซอร์นี้จะจำไว้ ครั้งต่อไปเปิดใช้ได้ทันที</p>
+    <form id="unlockForm" class="grid"><label>รหัสผ่าน<input id="pw" type="password" autocomplete="current-password" required></label>
+    <label>จำบนเครื่องนี้<select id="remember"><option value="1">จำ (แนะนำบนเครื่องส่วนตัว)</option><option value="0">ไม่จำ (เครื่องสาธารณะ)</option></select></label></form>
+    <div class="btns"><button class="btn" id="unlockBtn">ปลดล็อก</button></div><p id="unlockMsg" class="err"></p></div>` : "";
+  $("#view").innerHTML = lockBox + `<div class="card"><h2>ตารางข้อมูล</h2>
     <p class="sub">ตัวเลขในตารางมาตรฐานเป็นลิขสิทธิ์ของ วสท. จึงไม่อยู่ใน repo นี้ นำเข้าไฟล์ <code>tables.local.json</code> ที่เก็บไว้บนเครื่องของคุณ (โครงสร้างดู <code>data/tables.template.json</code>) ไฟล์จะถูกเก็บในเบราว์เซอร์นี้เท่านั้น</p>
     <div class="btns"><label class="btn">นำเข้าไฟล์ JSON<input type="file" id="imp" accept=".json,application/json" hidden></label>
-    <button class="btn ghost" id="exp" ${T ? "" : "disabled"}>ส่งออกไฟล์</button><button class="btn ghost" id="clr">ล้างข้อมูลในเบราว์เซอร์</button></div>
+    <button class="btn ghost" id="exp" ${T ? "" : "disabled"}>ส่งออกไฟล์</button><button class="btn ghost" id="clr">ล้างข้อมูล/ล็อกเครื่องนี้</button></div>
     ${T ? `<p>แหล่งข้อมูล: ${T.meta?.name ?? ""} (${T.meta?.version ?? ""})</p><div class="tablewrap"><table><thead><tr><th>กลุ่ม</th><th>ตาราง/ข้อ</th><th>ชื่อ</th></tr></thead><tbody>${list}</tbody></table></div>` : `<p class="err">ยังไม่มีข้อมูล</p>`}</div>`;
+  const doUnlock = async e => {
+    e?.preventDefault?.();
+    const msg = $("#unlockMsg"); msg.textContent = "กำลังตรวจรหัสผ่าน...";
+    try { T = await unlock($("#pw").value, $("#remember").value === "1"); status("ปลดล็อกแล้ว"); current_ = MODULES[1]; render(); }
+    catch (err) { msg.textContent = err.message; }
+  };
+  if ($("#unlockBtn")) { $("#unlockBtn").onclick = doUnlock; $("#unlockForm").onsubmit = doUnlock; }
   $("#imp").onchange = async e => {
     const file = e.target.files[0]; if (!file) return;
     try { T = JSON.parse(await file.text()); saveTables(T); status("ไฟล์ที่นำเข้า"); render(); } catch (err) { alert("อ่านไฟล์ไม่ได้: " + err.message); }
   };
   $("#exp").onclick = () => { const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([JSON.stringify(T, null, 1)], { type: "application/json" })); a.download = "tables.local.json"; a.click(); };
-  $("#clr").onclick = () => { clearTables(); T = null; status(null); render(); };
+  $("#clr").onclick = () => { clearTables(); location.reload(); };
 }
 function status(src) {
   const el = $("#dataStatus");
   el.className = "status " + (T ? "ok" : "bad");
-  el.textContent = T ? `ค่าตาราง: ${src}` : "ยังไม่มีค่าตาราง — นำเข้าที่แท็บ \"ตารางข้อมูล\"";
+  el.textContent = T ? `ค่าตาราง: ${src}` : hasEncrypted() ? "ใส่รหัสผ่านเพื่อปลดล็อกค่าตาราง" : "ยังไม่มีค่าตาราง — นำเข้าที่แท็บ \"ตารางข้อมูล\"";
 }
 $("#tabs").addEventListener("click", e => {
   const id = e.target.dataset?.id; if (!id) return;

@@ -18,13 +18,16 @@
 | ฌ | อาคารชุด (โหลดตามพื้นที่ มิเตอร์ห้องชุด โคอินซิเดนต์แฟกเตอร์) | ข้อ 9.1.2, ตาราง 9-1 ถึง 9-6 |
 
 ## ค่าตารางมาตรฐาน (สำคัญ)
-ตัวเลขในตารางของมาตรฐานเป็นลิขสิทธิ์ของ วสท. **repo นี้จึงไม่มีตัวเลขเหล่านั้น**
-- `data/tables.template.json` คือโครงสร้างไฟล์ (ค่าเป็น `null`)
-- ผู้ใช้กรอกค่าจากมาตรฐานฉบับที่ตนมีสิทธิ์ใช้ แล้วบันทึกเป็น `data/tables.local.json` (ไฟล์นี้อยู่ใน `.gitignore` ไม่ถูกอัปโหลด)
-- บน GitHub Pages: เปิดแท็บ **ตารางข้อมูล → นำเข้าไฟล์ JSON** ไฟล์จะเก็บในเบราว์เซอร์ของคุณเท่านั้น
+ตัวเลขในตารางของมาตรฐานเป็นลิขสิทธิ์ของ วสท. **repo นี้ไม่มีตัวเลขเหล่านั้นแบบอ่านได้**
+- `data/tables.enc.json` — ค่าตารางแบบเข้ารหัส (AES-256-GCM, กุญแจจากรหัสผ่านด้วย PBKDF2-SHA256 300,000 รอบ) ไม่มีรหัสผ่านอ่านไม่ได้
+  เปิดเว็บครั้งแรกบนแต่ละเครื่อง ใส่รหัสผ่านครั้งเดียว เบราว์เซอร์จะจำค่าไว้ (ปุ่ม "ล้างข้อมูล/ล็อกเครื่องนี้" ใช้ลบออก)
+- `data/tables.template.json` — โครงสร้างไฟล์ (ค่าเป็น `null`)
+- `data/tables.local.json` — ไฟล์ค่าจริงบนเครื่องผู้ใช้ อยู่ใน `.gitignore` ไม่ถูกอัปโหลด
+- แก้ค่าตารางแล้วสร้างไฟล์เข้ารหัสใหม่: `node tools/encrypt-tables.mjs "<รหัสผ่าน>"` แล้ว commit `data/tables.enc.json`
+  (ใช้คำสั่งเดียวกันนี้เพื่อเปลี่ยนรหัสผ่าน)
 
 ## วิธีใช้
-- **ออนไลน์:** Settings → Pages → Source: *Deploy from a branch* → `main` / root แล้วเปิด `https://<user>.github.io/EIT-2564-Calculation/`
+- **ออนไลน์:** (เปิดแล้ว) https://wachirasak-coder.github.io/EIT-2564-Calculation/ — ตั้งค่าที่ Settings → Pages → Source: *Deploy from a branch* → `main` / root แล้วเปิด `https://<user>.github.io/EIT-2564-Calculation/`
 - **บนเครื่อง:** วาง `tables.local.json` ใน `data/` แล้วเปิดผ่านเว็บเซิร์ฟเวอร์ใดก็ได้ เช่น `python -m http.server` แล้วไปที่ `http://localhost:8000`
 
 ## ทดสอบ
@@ -37,11 +40,13 @@ node --test tests/
 ```
 index.html, css/style.css
 js/app.js            หน้าจอและฟอร์มทุกแท็บ
-js/data.js           โหลด/นำเข้าค่าตาราง
+js/data.js           โหลด/ปลดล็อก/นำเข้าค่าตาราง
+js/crypto.js         เข้ารหัส/ถอดรหัส (Web Crypto)
 js/calc/*.js         ฟังก์ชันคำนวณ (pure function) แยกตามหัวข้อ
 data/tables.template.json
 tests/calc.test.mjs
 tools/make-template.mjs  สร้างแม่แบบจากไฟล์ค่าจริง (ลบตัวเลขออก)
+tools/encrypt-tables.mjs สร้าง data/tables.enc.json จากไฟล์ค่าจริง
 docs/PROMPT.md       Prompt/Spec ที่ใช้สร้างโปรแกรม
 ```
 
