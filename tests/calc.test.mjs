@@ -1,4 +1,4 @@
-// รัน: node --test tests/  (ต้องมี data/tables.local.json — ถ้าไม่มีจะข้ามการทดสอบที่ใช้ค่าตาราง)
+// รัน: node --test tests/  
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
@@ -13,9 +13,9 @@ import * as M from "../js/calc/motor.js";
 import * as X from "../js/calc/transformer.js";
 import * as K from "../js/calc/condo.js";
 
-const path = new URL("../data/tables.local.json", import.meta.url);
+const path = new URL("../data/tables.json", import.meta.url);
 const T = fs.existsSync(path) ? JSON.parse(fs.readFileSync(path, "utf8")) : null;
-const t = (name, fn) => test(name, { skip: !T && "ไม่มี data/tables.local.json" }, fn);
+const t = (name, fn) => test(name, { skip: !T && "ไม่มี data/tables.json" }, fn);
 const near = (a, b, e = 0.01) => assert.ok(Math.abs(a - b) <= e, `${a} ≠ ${b}`);
 
 test("helpers", () => {
